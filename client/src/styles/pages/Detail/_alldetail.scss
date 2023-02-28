@@ -1,0 +1,122 @@
+.Allroom {
+
+    width: 100%;
+    background-color: rgba(222, 184, 135, 0.202);
+
+    .m11 {
+        padding-top: 150px;
+    }
+
+    .d12 {
+
+        border: 1px solid brown;
+        border-radius: 15px;
+        flex-wrap: wrap;
+
+        border-style: dashed;
+    }
+
+    .det {
+
+        max-width: 500px;
+
+    }
+
+    i {
+        font-weight: 700;
+        font-size: 18px;
+        font-style: italic;
+    }
+
+    .slide {
+
+
+        img {
+            object-fit: contain;
+            width: 500px;
+            padding: 20px 10px;
+        }
+    }
+
+    .btn1 {
+        padding: 10px 15px;
+        border: 1px solid brown;
+        background-color: brown;
+        color: white;
+        font-weight: 500;
+
+        &:hover {
+            border: 1px solid brown;
+            color: brown;
+            background-color: white;
+
+        }
+    }
+
+
+
+    span {
+        font-size: 15px;
+        font-family: 'Amaranth', sans-serif;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: 28px;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+    .mr {
+        margin: 20px;
+    }
+
+    button {
+        border: 1px solid brown;
+        color: brown;
+
+        &:hover {
+            border: 1px solid brown;
+            background-color: brown;
+            color: white;
+        }
+    }
+
+    .divf {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 769px) {
+    .Allroom {
+        img {
+            object-fit: contain;
+            width: 400px;
+            padding: 0px 10px;
+            margin-bottom: 20px !important;
+        }
+
+        .det {
+
+            max-width: 400px;
+        }
+    }
+}
+
+@media screen and (max-width: 769px) and (min-width:300px) {
+    .Allroom {
+        img {
+            object-fit: contain;
+            width: 300px;
+            padding: 0px 10px;
+            margin-bottom: 20px !important;
+        }
+
+        .det {
+
+            max-width: 300px;
+        }
+    }
+}

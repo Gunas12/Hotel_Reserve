@@ -1,0 +1,229 @@
+.register {
+    width: 100%;
+    height: 120vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(193, 124, 19, 0.694);
+    background-color: rgb(237, 235, 229);
+
+    .lContainer {
+        background-color: white;
+        width: 600px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        //gap: 5px;
+
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    .col-6 {
+        width: 600px;
+        height: 400px;
+
+
+    }
+
+    .col-61 {
+        background: url("../../../Picture/reg.jpg") no-repeat center / cover;
+
+        background-position: center;
+
+    }
+
+    .lInput {
+        height: 45px;
+        width: 230px;
+        border: 1px solid rgb(153, 98, 15);
+        margin: 7px 18px;
+    }
+
+    .regg {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-left {
+        font-family: 'Alfa Slab One', cursive;
+        color: rgba(153, 98, 15, 0.734);
+        font-size: 28px;
+    }
+
+    .lButton {
+        border: none;
+        width: 230px;
+        height: 50px;
+        background-color: rgb(153, 98, 15);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 7px 18px;
+
+    }
+
+
+
+    .err {
+        color: red;
+        font-size: 13px;
+        margin-left: 30px;
+
+    }
+
+    .gologin {
+
+        color: rgb(175, 117, 39);
+        text-align: center;
+        font-size: 15px;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1180px) and (min-width: 900px) {
+    .register {
+        height: 250vh;
+
+        .row {
+            height: 1200px;
+        }
+
+        .col-6 {
+            width: 500px !important;
+            height: 450px !important;
+
+
+        }
+
+        .lContainer {
+            width: 500px !important;
+            height: 450px !important;
+
+
+
+        }
+
+        .col-61 {
+            width: 500px !important;
+            height: 450px !important;
+            margin-left: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 700px) {
+    .register {
+        height: 250vh;
+
+        .row {
+            height: 1400px;
+        }
+
+        .col-6 {
+            width: 500px !important;
+            height: 450px !important;
+
+
+        }
+
+        .lContainer {
+            width: 500px !important;
+            height: 450px !important;
+
+
+
+        }
+
+        .col-61 {
+            width: 500px !important;
+            height: 450px !important;
+            margin-left: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 560px) {
+    .register {
+        height: 280vh;
+
+        .row {
+            height: 1400px;
+        }
+
+        .col-6 {
+            width: 500px !important;
+            height: 450px !important;
+
+
+        }
+
+        .lContainer {
+            width: 500px !important;
+            height: 450px !important;
+
+
+
+        }
+
+        .col-61 {
+            width: 500px !important;
+            height: 450px !important;
+            margin-left: 20px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 560px) and (min-width: 300px) {
+    .register {
+        height: 280vh;
+
+        .row {
+            background-color: transparent;
+            height: 2000px;
+        }
+
+        .col-6 {
+            width: 370px !important;
+            height: 1000px !important;
+
+
+        }
+
+        .lContainer {
+            margin-top: 50px;
+            width: 370px !important;
+            height: 500px !important;
+
+
+
+        }
+
+        .col-61 {
+            width: 400px !important;
+            height: 400px !important;
+            margin-left: 20px;
+            display: none;
+
+        }
+    }
+}

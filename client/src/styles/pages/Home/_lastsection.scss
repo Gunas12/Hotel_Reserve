@@ -1,0 +1,104 @@
+.last {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(237, 235, 229);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .row1 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .con1 {
+        text-align: center;
+    }
+
+    .fa-crown {
+        color: rgb(153, 98, 15);
+
+    }
+
+    .fa-solid {
+        color: rgb(153, 98, 15);
+    }
+
+    .p44 {
+        font-size: 17px;
+        font-weight: 500;
+        font-family: "DM Sans";
+    }
+
+    span {
+        font-weight: 700;
+        font-size: 12px;
+        font-style: normal;
+        color: rgb(0, 0, 0);
+        line-height: 22.5px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "DM Sans";
+        letter-spacing: 4.8px;
+        padding: 10px 0;
+    }
+
+    h3 {
+        font-weight: 700;
+        font-size: 47px;
+
+        text-align: center;
+        font-style: normal;
+        color: rgb(0, 0, 0);
+        line-height: 60px;
+        text-decoration: none;
+        transform: none;
+        font-family: "DM Sans";
+        letter-spacing: -1.2px;
+    }
+
+    .xerite {
+        width: 400px;
+        height: 300px;
+    }
+
+    hr {
+        color: rgb(153, 98, 15);
+        height: 3px;
+        background-color: rgb(153, 98, 15);
+
+    }
+
+    .hr {
+        padding: 15px 0;
+    }
+
+    .h44 {
+        text-align: left;
+        margin-left: 14px;
+        font-family: "DM Sans";
+    }
+
+    .col5 {
+        p {
+            text-align: left;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1300px) and (min-width: 800px) {
+    .last {
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 300px) {
+    .last {
+        height: 200vh;
+    }
+}
